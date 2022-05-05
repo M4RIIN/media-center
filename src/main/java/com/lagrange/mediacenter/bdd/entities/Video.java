@@ -20,6 +20,9 @@ public class Video{
     @Column
     private String path;
 
+    @Column
+    private String poster;
+
     public Video(String name, String path) {
         this.name = name;
         this.path = path;
